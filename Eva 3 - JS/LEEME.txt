@@ -1,0 +1,20 @@
+Como ayuda para la evaluación:
+
+Existe un metodo para poder acceder al formulario mediante el name indicado,
+por ejemplo el name='frm'
+
+si en JS usamos document.frm."cualquiername"
+podemos acceder a los diferentes elementos del formulario de manera más sencilla.
+
+para acceder al primer elemento = document.frm.nombre
+Esto es equivalente a definir un ID para el elemento y luego buscarlo mediante getElementById.
+
+Se recomienda usar la función trim() para eliminar espacios antes y despues de los textos ingresados
+
+Genere el llamado a un sola función y que esta llame a diferentes funciones para ir validando los datos.
+Por ejemplo validar()
+
+Además para definir el destino y enviar el formulario debe usar lo siguiente:
+
+ document.frm.action = document.frm.destino.value;
+ document.frm.submit();
